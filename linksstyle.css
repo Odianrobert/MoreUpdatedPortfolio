@@ -1,0 +1,125 @@
+.header-cont {
+    width: 100%;
+    position: fixed;
+    top:0px;
+    height: 75px;
+    background: black;
+    border:1px solid #CCC;
+    border-left: none;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: powderblue;
+    
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    border-top: 1px solid #CCC;
+    background-color: black;
+  }
+
+  li {
+    font-weight: bold;
+    color: powderblue;
+    display: inline;
+    padding: 15px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow:
+          -1px -1px 0 dimgray,
+          1px -1px 0 dimgray,
+          -1px 1px 0 dimgray,
+          1px 1px 0 dimgray;
+  }
+
+  a:visited {
+    color: #191970;
+  }
+  
+  a:hover {
+    color: powderblue;
+  }
+  
+  #fname {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+  }
+
+  .divtext {
+    font-size: 40px;
+    text-shadow:
+            -2px -2px 0 dimgray,
+            2px -2px 0 dimgray,
+            -2px 2px 0 dimgray,
+            2px 2px 0 dimgray;
+  }
+
+  body {
+      background-color: #191970;
+      margin: 0;
+  }
+
+  html {
+      margin-bottom: 75px;
+      width:100%;
+  }
+
+  .container {
+      display: flex;
+      align-items: center; 
+      overflow: auto;
+      
+ }
+
+
+
+  .resume {
+    float: left;
+    background-color: black;
+    color: powderblue;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow:
+      -1px -1px 0 dimgray,
+      1px -1px 0 dimgray,
+      -1px 1px 0 dimgray,
+      1px 1px 0 dimgray;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 12.5%;
+    
+}
+.lI {
+    float: left;
+    background-color: black;
+    color: powderblue;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow:
+      -1px -1px 0 dimgray,
+      1px -1px 0 dimgray,
+      -1px 1px 0 dimgray,
+      1px 1px 0 dimgray;
+    font-size: 18px;
+    vertical-align: middle;
+    margin-top: 12.5%;
+    
+}
+
+.git {
+    float: right;
+    background-color: black;
+    color: powderblue;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow:
+      -1px -1px 0 dimgray,
+      1px -1px 0 dimgray,
+      -1px 1px 0 dimgray,
+      1px 1px 0 dimgray;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 12.5%;
+    
+}
